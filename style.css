@@ -1,0 +1,713 @@
+/* Using the Mobile first approach I will be utilizing 
+   the responsive design principles in styling this project */
+
+* {
+    margin: 0;
+}
+
+html {
+    background: #111731;
+}
+
+body {
+    background: #111731;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+h2, h3 {
+    color: white;
+    font-family: 'Reem Kufi Fun', Times, serif;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(170, 167, 167);
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+header {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding-top: 0.3rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    font-size: 2rem;
+    color: whitesmoke;
+    line-height: 1.7;
+    margin: 0 0 0 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 2rem;
+}
+
+.h1andP p {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.fullstop {
+    color: #1da1f2;
+    font-size: 5rem;
+}
+
+.belowH1 {
+    width: 17rem !important;
+    font-size: 1.7rem;
+}
+
+.btn {
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    border-radius: 13px;
+    background: linear-gradient(to right, skyblue, #50279b);
+    width: 13rem;
+    height: 4.8rem;
+    font-size: 2rem;
+}
+
+.aboutme {
+    width: 100%;
+    margin-top: 0;
+}
+
+.aboutme div {
+    width: 100%;
+}
+
+.aboutmebuttons {
+    margin-top: 1rem;
+}
+
+.myimage_outerDiv {
+    width: 40rem;
+    height: 40rem;
+    border: 10px solid #1da1f2;
+    border-radius: 10px;
+}
+
+.myimage_innerDiv {
+    width: 40rem;
+    height: 38rem;
+    border-radius: 15px;
+    position: relative;
+    top: 13px;
+    left: 80px;
+}
+
+.myimage_innerDiv img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.aboutmeText p {
+    margin-top: 0;
+}
+
+.aboutmebuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.readmore {
+    margin-left: 3.3rem;
+}
+
+.resume {
+    border: 1px solid #50279b;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    margin-right: 3.3rem;
+}
+
+.portfoliolinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+}
+
+.portfoliolinks a {
+    font-size: 2.5rem;
+    margin: 3rem 0 0 0;
+    color: rgb(194, 191, 191);
+    line-height: 0.7;
+}
+
+.project1text .project {
+    margin-bottom: 1.2rem;
+}
+
+.project {
+    color: #1da1f2;
+}
+
+.project1text p {
+    margin: 0.2rem 0 1rem 0;
+}
+
+.app_outer {
+    width: 37rem;
+    height: 36rem;
+    border: 10px solid #1da1f2;
+    border-radius: 10px;
+    margin: 2rem 0 7rem 0;
+}
+
+.app_inner {
+    position: relative;
+    width: 43rem;
+    height: 38rem;
+    border-radius: 15px;
+    bottom: 55px;
+    left: 10px;
+}
+
+.app_inner img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.h2services {
+    margin-bottom: 3rem;
+}
+
+.service {
+    margin-bottom: 3rem;
+    border: 2px solid #1da1f2;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 4px 4px 10px #1da1f2,
+               -4px -4px 10px #1da1f2;
+}
+
+.service img {
+    float: left;
+    height: 6rem;
+    margin: 0.1rem 2rem 0 0;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: whitesmoke;
+}
+
+.service p {
+    clear: left;
+}
+
+#technologies {
+    margin: 6rem 0 2rem 0;
+    padding: 0 0 2rem 0;
+}
+
+.techs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 4rem 0 0 0;
+}
+
+.techs div {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    border-top-right-radius: 10rem;
+    border-top-left-radius: 10rem;
+    padding: 0 2rem 2rem 2rem;
+    margin: 0;
+    color: white;
+    background: linear-gradient(to right, rgb(56, 73, 165), #3a1c70);
+}
+
+.shape {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: rgba(97, 97, 214, 0.1);
+    margin: 0;
+}
+
+.shape1 {
+    top: -5rem;
+    left: 0;
+}
+
+.shape2 {
+    top: -5rem;
+    right: 0;
+}
+
+.footerfirst h3 {
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.footerfirst > p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.myinfo {
+    display: flex;
+}
+
+.myinfo div img{
+    padding: 1rem;
+    margin: 0 1rem 0 0;
+    width: 4rem;
+    height: 4rem;
+}
+
+.myinfo p {
+    margin-top: 1.5rem;
+    color: white;
+}
+
+form {
+    display: grid;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 2rem;
+    background: linear-gradient(to right, rgb(63, 188, 238), #50279b);
+    border-radius: 2rem;
+}
+
+input[type="text"] {
+    width: 10rem; /* Set a maximum width if needed */
+    margin: 0 auto;
+    font-size: 2rem;
+    background: #111731;
+    color: white;
+    line-height: 2rem;
+}
+
+form button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 8rem;
+    height: 4rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.styleform {
+    display: grid;
+}
+
+.styleform input, .styleform textarea {
+    border: none;
+    width: 100%;
+    border-radius: 0.7rem;
+    height: 5rem;
+    outline: none;
+    margin-right: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+.styleform textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    height: 10rem;
+    font-size: 2rem;
+    background: #111731;
+    color: white;
+}
+
+.styleform label {
+    font-size: 2rem;
+    color: white;
+}
+
+.socialaccounts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.socialaccounts img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.company {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+/* Set the width of the scrollbar */
+::-webkit-scrollbar {
+    width: 9px; /* Adjust as needed */
+    overflow-x: hidden;
+}
+
+/* Change the color of the thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #1da1f2; /* Adjust to your desired color */
+}
+
+/* Apply styles for tablet screen size */
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    .btn {
+        width: 17rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .belowH1 {
+        width: 18rem !important;
+    }
+
+    .myimage_outerDiv {
+        width: 46rem;
+        margin: 0 auto;
+    }
+
+    .myimage_innerDiv img {
+        height: 100%;
+    }
+
+    .app_outer {
+        width: 45rem;
+    }
+
+    .app_inner {
+        width: 50rem;
+        left: 30px;
+        bottom: 80px;
+        margin-top: 3rem;
+    }
+
+    input[type="text"] {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .techs {
+        font-size: 15em;
+    }
+
+    .styleform textarea {
+        width: 55.5rem;
+        margin-left: 2rem;
+    }
+
+    .socialaccounts {
+        display: flex;
+        justify-content: right;
+        margin-top: 4rem;
+    }
+
+    .socialaccounts div {
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 9px;
+        overflow: scroll;
+    }
+
+    main {
+        margin: 6rem;
+    }
+
+    header nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    nav a:hover {
+        color: #1da1f2;
+        font-size: 1.8rem;
+    }
+
+    nav a:focus {
+        color: grey;
+    }
+
+    a:hover {
+        color: #1da1f2;
+        font-size: 2.1rem;
+    }
+
+    a:focus {
+        color: grey;
+    }
+
+    .btn:hover {
+        background: rgba(0, 0, 0, 0.2);
+        color: #1da1f2;
+    }
+
+    .send:hover {
+        background:rgba(0, 0, 0, 0.8);
+    }
+
+    input:hover, textarea:hover {
+        border: 1px solid whitesmoke;
+    }
+
+    .socialaccounts img:hover {
+        transform: scale(1.5);
+    }
+
+    header {
+        border: none;
+        margin: 3.5rem 0 2.7rem 0;
+    }
+
+    h1 {
+        font-size: 8rem;
+        line-height: 0.9;
+        margin-bottom: 1rem;
+    }
+
+    .h1andP p {
+        font-weight: bold;
+        font-size: 3rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .belowH1 {
+        width: 22rem !important;
+        margin-bottom: 18rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    #aboutme {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        margin-bottom: 5rem;
+    }
+
+    .aboutmeText {
+        margin: 0;
+        margin-left: -8.5rem;
+        margin-top: -9.5rem;
+    }
+
+    .aboutmeText h2 {
+        text-align: left;
+    }
+
+    .myimage_outerDiv {
+        margin: 0 0 0 7rem;
+        width: 30rem;
+    }
+
+    .myimage_innerDiv {
+        top: -7rem;
+        left: -8rem;
+        width: 35rem;
+        height: 44rem;
+    }
+
+    .portfoliolinks {
+        justify-content: center;
+        margin-bottom: 7rem;
+    }
+
+    .portfoliolinks a {
+        margin-left: 3rem; 
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 6rem;
+    }
+
+    .projects:nth-child(even) .app_outer {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .projects:nth-child(even) .pro {
+        grid-column: 2;
+        margin-left: 7rem;
+    }
+
+    .projects:nth-child(odd) .pro {
+        margin-right: 5rem;
+    }
+
+    .project {
+        margin-bottom: 2rem;
+    }
+
+    .view {
+        display: flex;
+        justify-content: center;
+    }
+
+    .viewall {
+        text-align: center;
+        margin-top: -2.5rem;
+    }
+
+    #services {
+        margin: 9rem 0;
+    }
+
+    .h2services {
+        margin: 2rem 0 4rem 0;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+    }
+
+    .footerdiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    form {
+        width: 40%;
+    }
+
+    input, textarea {
+        width: 35rem !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    html {
+        font-size: 8px;
+    }
+
+    main {
+        margin: 7rem 17rem;
+    }
+
+    .contact {
+        background: #1da1f2;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        margin-top: -0.5rem;
+    }
+
+    .contact:hover {
+        background:rgba(0, 0, 0, 0.2);
+    }
+
+    .aboutmeText {
+        margin-left: -22rem;
+        margin-top: -7rem;
+    }
+
+    .projects:nth-child(even) .pro {
+        grid-column: 2;
+        margin-left: -8rem;
+    }
+
+    .projects:nth-child(odd) .pro {
+        margin-right: -10rem;
+    }
+
+    .projects:nth-child(odd) .app_outer {
+        margin-left: 17rem;
+    }
+
+    .services {
+        column-gap: 7rem;
+    }
+
+    .h2services {
+        margin-bottom: 6rem;
+    }
+
+    .service {
+        padding: 7rem;
+    }
+
+    #technologies h2 {
+        margin-bottom: 6rem;
+    }
+
+    .portfoliolinks {
+        margin-bottom: 10rem;
+    }
+
+    .footerfirst {
+        margin-right: 20rem;
+    }
+
+    .footerdiv {
+        padding: 0 10rem;
+    }
+
+    textarea {
+        margin-left: 2.7rem !important;
+    }
+
+    .shape {
+        width: 30rem;
+        height: 30rem;
+        top: -12rem;
+    }
+
+    .lastline {
+        padding-right: 10rem;
+    }
+}
